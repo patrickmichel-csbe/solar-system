@@ -65,6 +65,14 @@ header>.nav-container>nav>ul>li>a {
     transition-duration: .5s;
 }
 
+header>.nav-container>nav>ul>li>a>i {
+    display: none;
+}
+
+header>.nav-container>a {
+    display: none;
+}
+
 header>.nav-container>nav>ul>li>a:hover {
     font-weight: 600;
     border-color: #d4c646;
@@ -104,26 +112,10 @@ main .content>.card {
     box-sizing: border-box;
     border: solid 1px #d8d8d8;
     padding: 1em;
-    box-shadow: 0 0 10px #d8d8d8;
+    box-shadow: 0 0 1em #d8d8d8;
     border-radius: .5em;
     display: flex;
     flex-direction: column;
-}
-
-@media (max-width: 767px) {
-    main .content>.card {
-        margin-left: .25em;
-        margin-right: .25em;
-        width: calc(50% - 1em);
-    }
-}
-
-@media (max-width: 575px) {
-    main .content>.card {
-        margin-left: 0;
-        margin-right: 0;
-        width: 100%;
-    }
 }
 
 main .content>.card .img-container {

@@ -7,30 +7,36 @@
     <title>The Solarsystem</title>
     <meta name="description" content="Das ist meine Webseite">
     <meta name="keywords" content="webseite, patrick, michel">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="style/animations.css">
     <link rel="stylesheet" href="style/style.css">
-    <script type="text/javascript" src="script/my-script.js"></script>
+    <link rel="stylesheet" href="style/tablet.css">
+    <link rel="stylesheet" href="style/mobile.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script/navigation.js"></script>
 </head>
 
 <body>
     <header>
         <div class="content nav-container">
+            <a href="#" id="burger_nav_icon">
+                <i class="fas fa-bars"></i>
+            </a>
+
             <div class="logo-container">
                 <a href="#">
                     <img src="img/logo.svg" class="rotation">
                     <span class="logo-title">Solarystem</span>
                 </a>
             </div>
-            <nav>
+            <nav id="burger_nav">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Docs</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Legal Notice</a></li>
+                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#"><i class="fas fa-book"></i> Docs</a></li>
+                    <li><a href="#"><i class="fas fa-address-card"></i> About</a></li>
+                    <li><a href="#"><i class="fas fa-images"></i> Gallery</a></li>
+                    <li><a href="#"><i class="fas fa-balance-scale-right"></i> Legal Notice</a></li>
                 </ul>
             </nav>
         </div>
