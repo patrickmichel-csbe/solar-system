@@ -90,7 +90,7 @@ header .logo-container img {
 }
 
 main {
-    padding: 1em;
+    padding: 0 1em 0 1em;
 }
 
 main .content {
@@ -112,12 +112,16 @@ main .content>.card {
 
 @media (max-width: 767px) {
     main .content>.card {
+        margin-left: .25em;
+        margin-right: .25em;
         width: calc(50% - 1em);
     }
 }
 
 @media (max-width: 575px) {
     main .content>.card {
+        margin-left: 0;
+        margin-right: 0;
         width: 100%;
     }
 }
