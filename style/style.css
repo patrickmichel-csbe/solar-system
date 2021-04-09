@@ -63,8 +63,8 @@ header>.nav-container>nav>ul>li {
 
 header>.nav-container>nav>ul>li>a {
     padding: .5em;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
     line-height: 4em;
     border-color: transparent;
     border-bottom-style: solid;
@@ -113,6 +113,7 @@ main {
 main .content {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 1em;
 }
 
 main .content>.card {
