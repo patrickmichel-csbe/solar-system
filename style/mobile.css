@@ -1,13 +1,24 @@
 @media (max-width: 575px) {
+    main {
+        margin-top: 4em;
+    }
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        background-color: white;
+    }
     header nav {
         position: fixed;
         bottom: 0;
         left: 0;
-        top: 0;
+        top: calc(4em + 1px);
         background-color: white;
-        z-index: 999;
+        z-index: 998;
         width: 50%;
-        box-shadow: 0 0 .5em #d8d8d8;
+        box-shadow: 0 0 .5em 0 #d8d8d8;
         margin-left: -50%;
         transition-property: margin-left;
         transition-duration: .5s;
@@ -39,9 +50,6 @@
         background-color: white;
         transition-property: margin-left;
         transition-duration: .5s;
-    }
-    header>.nav-container>a.open {
-        margin-left: 50%;
     }
     header>.nav-container>nav>ul>li>a>i {
         display: initial;

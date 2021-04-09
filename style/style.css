@@ -137,6 +137,20 @@ main .content>.card .img-container h2 {
     background-color: rgba(0, 0, 0, 0.39);
 }
 
+main .content>.card .img-container .banner {
+    position: absolute;
+    text-align: center;
+    padding: .25em;
+    width: 10em;
+    color: white;
+    top: 0;
+    right: 0;
+    transform: rotate(45deg) translate(3em, -1em);
+    background-color: #d4c646;
+    cursor: default;
+    font-weight: bold;
+}
+
 main .content>.card p {
     margin-top: 2em;
 }
