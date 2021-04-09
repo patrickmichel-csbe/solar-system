@@ -24,6 +24,7 @@ a {
 }
 
 header {
+    z-index: 999;
     border-bottom: 1px solid transparent;
     height: 4em;
     transition-duration: .25s;
@@ -45,6 +46,7 @@ header>.nav-container>nav {
 }
 
 header>.nav-container>nav>ul {
+    padding: 0;
     height: auto;
     margin: 0;
 }
