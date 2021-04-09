@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     display: flex;
@@ -81,10 +85,12 @@ header>.nav-container>nav>ul>li>a:hover {
     border-color: #d4c646;
 }
 
-header .logo-container a {
-    height: 3em;
+header .logo-container {
     padding: .5em;
-    padding-left: 1em;
+}
+
+header .logo-container a {
+    height: 100%;
     display: flex;
     align-items: center;
 }
@@ -112,7 +118,6 @@ main .content {
 main .content>.card {
     margin: .5em;
     width: calc(33% - 1em);
-    box-sizing: border-box;
     border: solid 1px #d8d8d8;
     padding: 1em;
     box-shadow: 0 0 1em #d8d8d8;
