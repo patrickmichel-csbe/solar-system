@@ -1,10 +1,10 @@
 $(document).ready(function() {
-    $('#burger_nav_icon').click(function(e) {
-        const burgerNav = $('#burger_nav')
-        if (burgerNav.hasClass('open')) {
-            burgerNav.removeClass('open')
+    $('#nav_btn').click(function(e) {
+        const nav = $('#nav')
+        if (nav.hasClass('open')) {
+            nav.removeClass('open')
         } else {
-            burgerNav.addClass('open')
+            nav.addClass('open')
         }
         e.preventDefault();
     })
